@@ -1,0 +1,41 @@
+REM ------------------------------------
+REM RickRoll Youtube Videos x3
+REM ------------------------------------
+REM Initial Tab (Won't Autoplay)
+DELAY 500
+GUI r
+DELAY 500
+STRING chrome.exe --new-window https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ENTER
+REM New Tab (Will Autoplay)
+DELAY 10000
+CTRL T
+DELAY 500
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1
+ENTER
+
+REM Initial Tab (Won't Autoplay)
+DELAY 700
+GUI r
+DELAY 500
+STRING chrome.exe --new-window https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ENTER
+REM New Tab (Will Autoplay)
+DELAY 10000
+CTRL T
+DELAY 500
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1
+ENTER
+
+REM Initial Tab (Won't Autoplay)
+DELAY 700
+GUI r
+DELAY 500
+STRING chrome.exe --new-window https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ENTER
+REM New Tab (Will Autoplay)
+DELAY 10000
+CTRL T
+DELAY 500
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1
+ENTER

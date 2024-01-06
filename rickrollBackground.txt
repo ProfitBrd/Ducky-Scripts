@@ -1,0 +1,33 @@
+REM ------------------------------------
+REM RickRoll Background
+REM ------------------------------------
+DELAY 500
+GUI r
+DELAY 500
+REM The Link Of Your IMG
+STRING chrome.exe https://repository-images.githubusercontent.com/367934588/4a27ae00-b73b-11eb-801b-36dd1756dc93
+ENTER
+DELAY 1500
+CTRL s
+DELAY 500
+STRING %userprofile%\downloads\GetRickRolledDummy.jpg
+ENTER
+GUI r
+DELAY 500
+STRING mspaint
+ENTER
+DELAY 150
+CTRL o
+STRING %userprofile%\downloads\GetRickRolledDummy.jpg
+DELAY 100
+DOWNARROW
+ENTER
+ALT f
+DELAY 1000
+STRING k
+DELAY 1000
+STRING f
+DELAY 3000
+ALT f
+DELAY 1000
+STRING x
