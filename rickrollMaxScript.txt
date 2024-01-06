@@ -116,16 +116,6 @@ DELAY 500
 STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1
 ENTER
 
-REM ------------------------------------
-REM Turn Volume to Max
-REM ------------------------------------
-DELAY 500
-GUI r
-DELAY 500
-STRING powershell -ExecutionPolicy Bypass -Command "$volume = New-Object -ComObject WScript.Shell; $stopwatch = [System.Diagnostics.Stopwatch]::StartNew(); while ($stopwatch.Elapsed.TotalSeconds -lt 6) { $volume.SendKeys([char]175); Start-Sleep -Milliseconds 100 }; $stopwatch.Stop()"
-ENTER
-
-
 
 REM ------------------------------------
 REM ASCII RickRoll
@@ -237,4 +227,14 @@ ENTER
 STRING oodxkkkkkdddddddodxxxxxdollol:......,;;,,'.                         .........:oooddddddddoodddddoooo
 ENTER
 STRING ooodxxkkxddddoooodxkkxdollllc;......,;;,,'.                         .........,looooooooooooooddooooo
+ENTER
+
+
+REM ------------------------------------
+REM Turn Volume to Max
+REM ------------------------------------
+DELAY 500
+GUI r
+DELAY 500
+STRING powershell -ExecutionPolicy Bypass -Command "$volume = New-Object -ComObject WScript.Shell; $stopwatch = [System.Diagnostics.Stopwatch]::StartNew(); while ($stopwatch.Elapsed.TotalSeconds -lt 6) { $volume.SendKeys([char]175); Start-Sleep -Milliseconds 100 }; $stopwatch.Stop()"
 ENTER
