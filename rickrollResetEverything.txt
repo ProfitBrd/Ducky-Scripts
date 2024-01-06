@@ -1,0 +1,52 @@
+REM ------------------------------------
+REM Change Default Search Engine back to Google
+REM ------------------------------------
+REM Open Chrome
+GUI r
+DELAY 500
+STRING chrome
+ENTER
+DELAY 1000
+
+REM Open Settings
+CTRL l
+DELAY 500
+STRING chrome://settings/searchEngines
+ENTER
+DELAY 2000
+
+REM Navigate to the three dots for Bing
+TAB
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+
+REM Select 3 dots and then make default browser
+ENTER
+DELAY 100
+ENTER
+DELAY 100
+
+REM Close Chrome
+ALT F4
+DELAY 500
+
+REM ------------------------------------
+REM Delete the Rickroll Background Picture
+REM ------------------------------------
+DELAY 1000
+GUI r
+DELAY 500
+STRING cmd
+DELAY 500
+ENTER
+DELAY 500
+STRING del "%userprofile%\downloads\GetRickRolledDummy.jpg"
+ENTER
+DELAY 500
+STRING exit
+ENTER
